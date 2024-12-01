@@ -10,7 +10,8 @@ public class NextPermutation {
             if (nums[i] < nums[i + 1]) {
                 breakpoint = i;
                 break;
-            }
+            }                                                     //                  O(n)
+                                                                 //                optimised
         }
 
         if (breakpoint == -1) {
